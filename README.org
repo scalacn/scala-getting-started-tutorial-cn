@@ -97,6 +97,6 @@ $ ~ SBT_OPTS="-Dsbt.override.build.repos=true" sbt run
    src_bash{sbt clean compile}, 然后再用 IDEA 打开。（这招对付 IDEA 抽风非常有用，至于为什么，我也不知道。）
    
 ** TODO 6. 一个可以打包的单模块项目模板 TODO
-** TODO 7. 一个典型的的多模块项目模板
+** TODO 7. 一个典型的的多模块项目模板 TODO
 
-* TODO Scala 新手容易遇到的问题和解答
+* TODO Scala 新手容易遇到的问题和解答 TODO
