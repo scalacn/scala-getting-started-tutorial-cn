@@ -88,7 +88,7 @@ $ ~ SBT_OPTS="-Dsbt.override.build.repos=true" sbt run
 完成以后，用 IDEA 打开我们的模板项目就行了。请注意要用“打开(open)”而不是“导入(import)”。
 
 注意事项：
-1. 打开一个新的项目之前，最好在第 4 步的命令行里，执行 src_bash{sbt compile} 命令，等它完成以后，再
+1. 打开一个新的项目之前，最好在第 4 步的命令行里，执行 sbt compile 命令，等它完成以后，再
    用 IDEA 打开。
 2. 当已经打开的项目，配置发生改变的时候，比如任何 *.sbt 文件的内容有变化，IDEA 里面要记得刷新项目
    （IDEA的自动刷新有时候可能不靠谱）。具体做法：打开 View -> Tool Windows -> sbt, 点击项目刷新按钮。
