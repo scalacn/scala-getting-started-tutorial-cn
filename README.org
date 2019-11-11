@@ -94,7 +94,7 @@ $ ~ SBT_OPTS="-Dsbt.override.build.repos=true" sbt run
    （IDEA的自动刷新有时候可能不靠谱）。具体做法：打开 View -> Tool Windows -> sbt, 点击项目刷新按钮。
    如果找不到这个窗口，说明项目配置有问题或者 IDEA 不能正确处理本项目。
 3. 当 IDEA 抽风的时候，先把这个项目在 IDEA 里面关了，手动删掉项目根目录下的 .idea 文件，执行
-   src_bash{sbt clean compile}, 然后再用 IDEA 打开。（这招对付 IDEA 抽风非常有用，至于为什么，我也不知道。）
+   sbt clean compile, 然后再用 IDEA 打开。（这招对付 IDEA 抽风非常有用，至于为什么，我也不知道。）
    
 ** TODO 6. 一个可以打包的单模块项目模板 TODO
 ** TODO 7. 一个典型的的多模块项目模板 TODO
