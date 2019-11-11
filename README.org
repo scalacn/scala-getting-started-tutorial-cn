@@ -96,5 +96,7 @@ $ ~ SBT_OPTS="-Dsbt.override.build.repos=true" sbt run
 3. 当 IDEA 抽风的时候，先把这个项目在 IDEA 里面关了，手动删掉项目根目录下的 .idea 文件，执行
    src_bash{sbt clean compile}, 然后再用 IDEA 打开。（这招对付 IDEA 抽风非常有用，至于为什么，我也不知道。）
    
-** 6. 一个可以打包的单模块项目模板
-** 7. 一个典型的的多模块项目模板
+** TODO 6. 一个可以打包的单模块项目模板 TODO
+** TODO 7. 一个典型的的多模块项目模板
+
+* TODO Scala 新手容易遇到的问题和解答
