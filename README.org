@@ -68,7 +68,7 @@ $ ~ SBT_OPTS="-Dsbt.override.build.repos=true" sbt run
 
 这个命令可能要耗费你几分钟的时间，请耐心等待。
 
- 请注意，SBT 第一次跑的时候，命令前加上 src_bash{SBT_OPTS="-Dsbt.override.build.repos=true"}, 会强制
+ 请注意，SBT 第一次跑的时候，命令前加上 src_sh{SBT_OPTS="-Dsbt.override.build.repos=true"}, 会强制
  从配置好的国内源下载，大大加快速度。什么叫做“SBT第一次跑”呢？这是有讲究的。包括以下几种情况：
 1. 从来没有运行过 sbt 命令。
 2. 项目里的 SBT 版本升级了，比如从 1.2.0 升级到 1.3.0.
